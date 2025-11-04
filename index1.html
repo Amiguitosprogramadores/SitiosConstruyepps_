@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida - Café Aroma</title>
+    <link rel="stylesheet" href="productos.css">
+    <style>
+        .bienvenida {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .bienvenida h2 {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        .bienvenida p {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 15px 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+            max-width: 600px;
+        }
+
+        .contenedor-botones {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contenedor-botones .btn-volver {
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            background-color: #a0522d; /* Café oscuro */
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .contenedor-botones .btn-volver:hover {
+            transform: scale(1.05);
+            background-color: #8b4513;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Café Aroma</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="descuentos.html">Descuentos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bienvenida">
+        <h2>¡Bienvenidos a Café Aroma!</h2>
+        <p>Disfruta de los mejores cafés, preparados con pasión y dedicación. Cada taza está hecha pensando en ti.</p>
+        <p>Navega por nuestra página para conocer nuestros productos, promociones y descubrir todo lo que tenemos para ofrecerte. A continuación se mostrara un menú debajo de este texto que es para dirigirte a otros apartados de nuestro sitio web, o si no puedes presionar en los apartados que peudes observar en la parte superior derecha de nuestra página para que te lleve a otros apartados de nuestro sitio.</p>
+
+        <div class="contenedor-botones">
+            <a href="productos.html" class="btn-volver">☕ Ver Productos</a>
+            <a href="descuentos.html" class="btn-volver">💰 Ver Descuentos</a>
+            <a href="nosotros.html" class="btn-volver">📍 Nosotros</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Café Aroma | <a href="index.html">Inicio</a></p>
+    </footer>
+</body>
+</html>
