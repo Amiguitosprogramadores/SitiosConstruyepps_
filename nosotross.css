@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("imagenes/cafe.jpg"); /* Reemplaza con tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* --- Encabezado y menú --- */
+header {
+    background-color: rgba(62, 39, 35, 0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc80;
+}
+
+/* --- Sección Nosotros --- */
+.nosotros {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 50px auto;
+    padding: 40px 20px;
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+.nosotros h2 {
+    text-align: center;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+.nosotros h3 {
+    color: #6d4c41;
+    margin-top: 25px;
+}
+
+.info-contacto p, .historia p {
+    line-height: 1.6;
+}
+
+.ubicacion iframe {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* --- Botón volver --- */
+.btn-volver {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #6d4c41;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-volver:hover {
+    background-color: #3e2723;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: rgba(62, 39, 35, 0.9);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
